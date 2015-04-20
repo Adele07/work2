@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-image: url(bg_html.jpg);
+}
+.wrap{
+  width: 1300px;
+ 
+  background-position: center;
+  background-repeat: repeat;
+  margin:0 auto;/*div居中*/   
+}
+.header{
+	height: 200px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #008800;
+}
+span{
+	color:#00E3E3;
+}
+.logo{
+	width: 300px;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 190px;
+	float: left;
+}
+.dot{
+	width: 250px;
+	height: 50px;
+	margin-top: 70px; 
+    float: right; 
+}
+.navbar{
+	text-decoration:none;
+    font-family: Euphemia;
+    color:black;
+	width: 700px;
+	height: 50px; 
+    float: right;
+    margin-right: 90px; 
+	list-style-type:none;
+}
+.navbar li{
+	display: inline;
+	padding-right: 38px;
+}
+
+.section{
+	width: 1300px;
+}
+.picture{
+	margin-left: 180px;	
+}
+.program{
+	background-color: #272727;
+	width: 300px;
+	height: 415px;
+	float: right;
+	margin-right: 180px;
+}
+h2{
+	color: #00AEAE;
+	text-align:left;
+	margin-left: 40px;
+	font-size: 38px;
+	font-family: Euphemia; 
+}
+.program h2{
+	margin-top: 30px;
+}
+.program p{
+	line-height: 30px;
+	margin-top: 20px;
+}
+p{
+	color: grey;
+	font-size: 16x;
+	font-family: Euphemia;
+	text-align:left;
+	margin-left: 40px;
+	margin-right: 34.2px;  
+}
+.word p{
+	font-weight: bold;
+}
+.read{
+	display: block;
+	width: 120px;
+	height: 35px;
+	padding-top:15px; 
+    padding-left:10px;
+    padding-right: 10px;
+	background-color: #3C3C3C;
+	text-align:center;
+	margin-left: 40px;
+	margin-top: 20px;
+	color:white;
+	font-family: Arial;
+	font-weight: 100;
+}
+.words p{
+	clear: both;
+	color: #4F4F4F;
+	background-color: white;
+	padding-top:25px;
+	padding-left:30px;
+	padding-right: 30px;
+	font-size: 15.4px;
+	width:880px;
+	height:120px;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-top: 20px; 
+	line-height:30px;    
+}
+.part{
+	clear: both;
+	background-color: white;
+	padding-top:5px;
+	padding-right: 30px;
+	width:910px;
+	height: 500px;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-top: 20px; 
+	line-height:30px;
+}
+.part h2{
+	color: black;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+div .left{
+	margin-top: 30px;
+	float: left; 
+	font-family: arial;
+	width: 650px;
+	height: 200px;
+	clear: both; 
+}
+div .left img{
+	width: 220px;
+	padding-top:5px;
+	padding-left: 30px;
+	float: left;
+}
+div .left h3{
+	width: 320px;
+	line-height: 1;
+	font-weight: 900;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding-left: 290px;
+	padding-top: 5px;
+}
+div .left p{
+	font-family: arial;
+	color: black;
+	font-size: 13px;
+	margin-left: 288px;
+	font-weight: none; 
+}
+div .second img{
+	clear: both;
+	padding-top: 45px;
+}
+div .second h3{
+	margin-bottom: 10px;
+	padding-top: 55px;		
+}
+.right{
+	float: right;
+	width: 250px;
+	height: 400px;
+	font-size: 13px;
+}
+.right li{
+	list-style-image:url(icon_03.png);
+	margin-right: 15px;
+}
+.right h2{
+	margin-left: 0px;
+	margin-top: 50px;
+	font-size: 24.5px;
+}
+.enter{
+	text-align: left;
+	background-color: white;
+	color: #E0E0E0;
+	border-style:solid;
+	border-color:#E0E0E0;
+	border-width: thin;
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+}
+.search{
+	color: #00E3E3;
+	text-align: left;
+	font-size: 14px;
+	width: 80px;
+	height: 30px;
+	background-color:#F0F0F0;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.footer{
+	margin-top: 30px;
+	clear: both;
+	width: 910px;
+	height: 100px;
+}
+.footer p{
+	width: 1300px;
+	text-align: center;
+	color: black;
+}
